@@ -13,7 +13,7 @@ function Projects() {
             <div className="card-body">
               <h5 className="card-title">Youtube Clone</h5>
               <p className="card-text">Created a youtube clone to imeplement my knowledge in react. Created a youtube clone to imeplement my knowledge in react</p>
-              <a href="#" className="btn btn-danger">Read More..</a>
+              <a href="/youtube" className="btn btn-danger">Read More..</a>
             </div>
           </div>
         </div>
@@ -22,7 +22,7 @@ function Projects() {
             <div className="card-body">
               <h5 className="card-title">Library Management System</h5>
               <p className="card-text">Created a project to avoid mannual work in library. All the work is done through project. It is built using latest technologies. </p>
-              <a href="#" className="btn btn-danger">Read More..</a>
+              <a href="/library" className="btn btn-danger">Read More..</a>
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@ function Projects() {
             <div className="card-body">
               <h5 className="card-title">Resume Creator</h5>
               <p className="card-text">Created a youtube clone to imeplement my knowledge in react. Created a youtube clone to imeplement my knowledge in react</p>
-              <a href="#" className="btn btn-danger">Read More..</a>
+              <a href="/resume" className="btn btn-danger">Read More..</a>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@ function Projects() {
             <div className="card-body">
               <h5 className="card-title">Apple Clone</h5>
               <p className="card-text">Created a project to avoid mannual work in library. All the work is done through project. It is built using latest technologies. </p>
-              <a href="#" className="btn btn-danger">Read More..</a>
+              <a href="/clone" className="btn btn-danger">Read More..</a>
             </div>
           </div>
         </div>

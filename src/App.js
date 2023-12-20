@@ -8,10 +8,7 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import {
   BrowserRouter,
-  createBrowserRouter,
-  Link,
   Route,
-  RouterProvider,
   Routes,
 } from "react-router-dom";
 function App() {
@@ -22,9 +19,9 @@ function App() {
     <NavBar />
       <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Education" element={< Education />}/>
-          <Route path="/Technology" element={<Technologies />}/>
-          <Route path="/Projects" element={<Projects />}/>
+          <Route path="/education" element={< Education />}/>
+          <Route path="/technology" element={<Technologies />}/>
+          <Route path="/projects" element={<Projects />}/>
       </Routes>
           <Footer/>
     </BrowserRouter>      

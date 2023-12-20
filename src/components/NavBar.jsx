@@ -1,6 +1,6 @@
 import React from 'react'
 import './NavBar.css'
-import { Routes, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
     return (
@@ -16,14 +16,14 @@ function NavBar() {
                             <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="Education">Education</Link>
+                            <Link className="nav-link" to="education">Education</Link>
                         </li>
                         
                         <li className="nav-item">
-                            <Link className="nav-link" to="Technology">Technology</Link>
+                            <Link className="nav-link" to="technology">Technology</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="Projects">Projects</Link>
+                            <Link className="nav-link" to="projects">Projects</Link>
                         </li>
                     </ul>
                 
