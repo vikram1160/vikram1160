@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function NavBar() {
      const [isMobile, setIsMobile]=useState(false)
     function ToggleEvent(){
-        alert("working in my website")
+        alert("working my website")
     }
   
     return (
