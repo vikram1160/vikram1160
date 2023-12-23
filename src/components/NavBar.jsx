@@ -1,9 +1,9 @@
-import React,from 'react'
+import React, { useState } from 'react'
 import './NavBar.css'
 import { Link } from 'react-router-dom'
 
 function NavBar() {
-    //  const [isMobile, setIsMobile]=useState(false)
+     const [isMobile, setIsMobile]=useState(false)
     function ToggleEvent(){
         alert("working in my website")
     }
