@@ -14,9 +14,9 @@ function Home() {
             I am professional web developer looking for the opportunity to express my knowledge. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid velit dicta voluptatum rem blanditiis magnam voluptatibus vitae. Ipsum, dignissimos unde molestias at hic optio voluptatum beatae nihil, velit quaerat ratione. Quae sed neque fugiat ex!
           </p>
           <div>
-            <a href={resume} className='btn btn-outline-danger mx-3' download>Download Resume</a>
+            <a href={resume} className='btn btn-outline-danger mx-3 mb-3' download>Download Resume</a>
 
-            <a href={whatsapp_message} className='btn btn-danger'>Connect on Whatsapp</a>
+            <a href={whatsapp_message} className='btn btn-danger mt-2'>Connect on Whatsapp</a>
 
           </div>
         </div>
