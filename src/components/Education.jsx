@@ -34,7 +34,9 @@ function Education() {
           </tr>
         </tbody>
       </table>
+      {/* <FontAwesomeIcon icon="fa-brands fa-instagram" /> */}
     </div>
+    
   )
 }
 

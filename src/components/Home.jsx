@@ -8,7 +8,8 @@ function Home() {
   return (
     <div className='container-fluid bg-dark text-light min-vh-100 d-flex justify-content-center align-items-center'>
         <div className="d-flex flex-column justify-content-center align-items-center text-center">
-
+          
+        
 
           <h1>Hello, I am <span className='text-danger display-2 fw-bold'>Vikram</span></h1>
           <p className='my-info ' >
