@@ -2,3 +2,12 @@ button{
     margin: 1px ;
     background: aqua;
 }
+.nav-item1{
+    margin: -40px 70px;
+}
+@media screen  416 {
+    .nav-item1{
+        margin:0px 0px;
+    }
+    
+}
