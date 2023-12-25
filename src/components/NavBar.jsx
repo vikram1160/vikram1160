@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'; // Assuming you are using React Router
 import './NavBar.css'
 
 const Navbar = () => {
+  function cng(){
+     Navbar("")
+  }
   
   const [showNavbar, setShowNavbar] = useState(false);
 
@@ -30,26 +33,26 @@ const Navbar = () => {
       <div className={`collapse navbar-collapse ${showNavbar ? 'show' : ''}`} id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-5 mb-lg-0 ">
           <li className="nav-item">
-            <Link className="nav-link active" aria-current="page" to="/">
+            <Link className="nav-link active" onClick={cng} aria-current="page" to="/">
               Home
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/education">
+            <Link className=" nav-link" onClick={cng} to="/education">
               Education
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/technology">
+            <Link className="nav-link" onClick={cng} to="/technology">
               Technology
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/projects">
+            <Link className="nav-link" onClick={cng} to="/projects">
               Projects
             </Link>
             <li className="nav-item1">
-            <Link className="nav-link" to="/aboutme">
+            <Link className="nav-link" onClick={cng} to="/aboutme">
               AboutMe
             </Link>
           </li>

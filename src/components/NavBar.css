@@ -2,12 +2,15 @@ button{
     margin: 1px ;
     background: aqua;
 }
-.nav-item1{
-    margin: -40px 70px;
+.nav-item1 {
+    margin-left: 67px;
+    margin-top: -39px;
 }
-@media screen  416 {
-    .nav-item1{
-        margin:0px 0px;
+
+@media screen and (min-width: 416px) {
+    .nav-item1 {
+        margin-left: 1px;
+        margin-top: 1px;
     }
-    
 }
+
