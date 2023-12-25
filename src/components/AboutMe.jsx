@@ -6,7 +6,7 @@ import vikram from '../assets/vikram.jpg.jpg'
 const AboutMe = () => {
   return (
     <>
-   <div className="d-flex">
+   <div className="">
       <img src={vikram} className="d-block  " alt="..."/>
       <div className='mx-5' >
     <h3 className='md'>  I  Am  <span className='vikram'>Vikram</span></h3>
