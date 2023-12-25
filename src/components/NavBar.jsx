@@ -4,7 +4,8 @@ import './NavBar.css'
 
 const Navbar = () => {
   function cng(){
-     Navbar("")
+
+    
   }
   
   const [showNavbar, setShowNavbar] = useState(false);
