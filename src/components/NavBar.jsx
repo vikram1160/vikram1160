@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'; // Assuming you are using React Router
 import './NavBar.css'
 
 const Navbar = () => {
+  
   const [showNavbar, setShowNavbar] = useState(false);
 
   const toggleNavbar = () => {
