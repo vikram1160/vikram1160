@@ -15,6 +15,13 @@
     color: tomato;
     
 }
-.sam{
-    /* margin-left: 140px; */
+.class{
+    color: rgb(255, 0, 0);
 }
+.class1{
+    color: rgba(255, 132, 0, 0.919);
+}
+.class2{
+    color: rgba(6, 237, 253, 0.943);
+}
+
