@@ -2,10 +2,10 @@ button{
     margin: 1px ;
     background: aqua;
 }
-.nav-item1 {
+/* .nav-item1 {
     margin-left: 67px;
     margin-top: -39px;
-}
+} */
 
 @media screen and (min-width: 416px) {
     .nav-item1 {

@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <>
    <div className="">
-      <img src={vikram} className="d-block  " alt="..."/>
+      <img src={vikram} className="d-block  " alt="viki"/>
       <div className='mx-5' >
     <h3 className='md'>*I Am  <span className='vikram'>Vikram</span></h3>
     <h5 className='sam'>*I Am From Maharashtra , Dist <span className='pm'>Sambhaji Nagar</span></h5>
@@ -21,7 +21,7 @@ const AboutMe = () => {
     </div>
     </div>
     
-        </>
+        </> 
   )
 }
 
