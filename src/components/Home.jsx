@@ -18,7 +18,7 @@ function Home() {
         </div>
 
         <h1>Hello, I am <span className='text-danger display-2 fw-bold '>Vikram</span></h1>
-          <p className='my-info w-50 ' >
+          <p className='my-info ' >
             I am professional web developer looking for the opportunity to express my knowledge. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid velit dicta voluptatum rem blanditiis magnam voluptatibus vitae. Ipsum, dignissimos unde molestias at hic optio voluptatum beatae nihil, velit quaerat ratione. Quae sed neque fugiat ex!
           </p>
           <div>
