@@ -26,8 +26,7 @@ const Navbar = () => {
          >
         {showNavbar ? '' : ''}<span  se className="navbar-toggler-icon" ></span>
       </button>
-
-      <div className={`collapse navbar-collapse ${showNavbar ? 'show' : ''}`} id="navbarSupportedContent">
+       <div className={`collapse navbar-collapse ${showNavbar ? 'show' : ''}`} id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-5 mb-lg-0 ">
           <li className="nav-item">
             <Link className="nav-link active" onClick={toggleNavbar}aria-current="page" to="/">
