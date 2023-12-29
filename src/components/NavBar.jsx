@@ -23,7 +23,7 @@ const Navbar = () => {
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation" >
-        {showNavbar? '':''}<span className="navbar-toggler-icon"></span>
+        {showNavbar ? 'show':''}<span className="navbar-toggler-icon"></span>
       </button>
 
       <div className={`collapse navbar-collapse ${showNavbar ? 'show':''}`}id="navbarSupportedContent">
