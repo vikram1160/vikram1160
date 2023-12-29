@@ -24,9 +24,9 @@ function Home() {
           </div> */}
           
         <div className="d-flex mt-Link">
-        <Link to="https://www.instagram.com/vikram_golait_96k?igsh=Z2ZwdDRyZWdvZjZx"><img src={viki} className=' insta'/></Link>
-        <Link to="https://wa.me/917887589262?text=I want to hire you"><img src={vik} className=' whatsapp'/></Link>
-        <Link to="https://youtube.com/@Status_Studiooo?si=j0t43nfqw4r93ioY"><img src={vi} className=' you'/></Link>
+        <Link to="https://www.instagram.com/vikram_golait_96k?igsh=Z2ZwdDRyZWdvZjZx"><img src={viki} className=' insta'alt='insta'/></Link>
+        <Link to="https://wa.me/917887589262?text=I want to hire you" ><img src={vik} className=' whatsapp' alt='whatsapp'/></Link>
+        <Link to="https://youtube.com/@Status_Studiooo?si=j0t43nfqw4r93ioY"><img src={vi} className=' you' alt='youtube'/></Link>
         </div>
 
         <h1>Hello, I am <span className='text-danger display-2 fw-bold '>Vikram</span></h1>
