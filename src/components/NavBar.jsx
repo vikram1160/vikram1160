@@ -22,12 +22,12 @@ const Navbar = () => {
         data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
-        aria-label="Toggle navigation"
-         >
-        {showNavbar ? '' : ''}<span className="navbar-toggler-icon" ></span>
+        aria-label="Toggle navigation" >
+        {showNavbar? '':''}<span className="navbar-toggler-icon"></span>
       </button>
-       <div className={`collapse navbar-collapse ${showNavbar ? 'show' : ''}`} id="navbarSupportedContent">
-        <ul className="navbar-nav me-auto mb-5 mb-lg-0 ">
+
+      <div className={`collapse navbar-collapse ${showNavbar ? 'show':''}`}id="navbarSupportedContent">
+        <ul className="navbar-nav me-auto mb-5 mb-lg-0">
           <li className="nav-item">
             <Link className="nav-link active" onClick={toggleNavbar}aria-current="page" to="/">
               Home
