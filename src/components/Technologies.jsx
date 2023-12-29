@@ -3,8 +3,11 @@ import './Technologies.css'
 
 function Technologies() {
   return (
+
     <div className="body">
       <div className="skills">
+      <h1 className='h1'>My SkiLLS</h1>
+      <h2 className='h2'>* Technical Skills * </h2>
       <div className="skill">
         <div className="skill-name"><span style={{color :'Orange'}}>HTML</span></div>
         <div className="skill-bar">
@@ -32,10 +35,40 @@ function Technologies() {
         <div className="skill-bar">
           <div className="skill-per" per="70%" style={{ maxWidth: '81%' }}></div>
         </div>
-        
-        
+        </div>
 
-      </div>
+        <div className="skill">
+        <div className="skill-name"><span style={{color :'Orange'}}> ANGULAR</span></div>
+        <div className="skill-bar">
+          <div className="skill-per" per="70%" style={{ maxWidth: '56%' }}></div>
+        </div>
+        </div>
+
+
+        <div className="skill">
+        <div className="skill-name"><span style={{color :'Orange'}}> REACT</span></div>
+        <div className="skill-bar">
+          <div className="skill-per" per="70%" style={{ maxWidth: '78%' }}></div>
+        </div>
+        </div>
+
+
+        <div className="skill">
+        <div className="skill-name"><span style={{color :'Orange'}}> MYSQL</span></div>
+        <div className="skill-bar">
+          <div className="skill-per" per="70%" style={{ maxWidth: '67%' }}></div>
+        </div>
+        </div>
+
+        <div className="skill">
+        <div className="skill-name"><span style={{color :'Orange'}}> JAVA</span></div>
+        <div className="skill-bar">
+          <div className="skill-per" per="70%" style={{ maxWidth: '40%' }}></div>
+        </div>
+        </div>
+
+
+
       </div>
     </div>
     </div>

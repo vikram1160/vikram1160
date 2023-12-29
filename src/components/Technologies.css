@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .body{
-    min-height: 100vh;
+    min-height: 160vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@
 }
 .skill-per{
     height: 14px;
-    background: #e2068e;
+    background: #e70891;
     border-radius: 3px;
     position: relative;
     animation: fillBars 2.5s 1;
@@ -64,4 +64,26 @@
     to{
         width: 100%;
     }
+}
+.h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin: 20px 0; 
+    margin-left: 579px;
+    font-family: system-ui;
+    color: rgb(10, 162, 232);
+    margin-top: -170px;
+}
+.h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin: 20px 0; 
+    margin-left: 520px;
+    font-family: system-ui;
+    color: rgb(16, 204, 38);
+    margin-top:1px;
 }
