@@ -1,16 +1,18 @@
 .insta{
-    margin-right: 22px;
-    font-size: 36px;
-    color: aqua;
+    width:60px;
+    margin-top: -40px;
+    margin: 21px 16px;
+
+
+    
 }
-.what{
-    margin-right:10px;
-    font-size: 36px;
-    color: aqua;
+.whatsapp{
+    width:60px;
+    margin-top: -40px;
+    margin: 21px 16px;
 }
 .you{
-    margin-right:12px;
-    padding-left: 7px;
-    font-size: 36px;
-    color: aqua;
+    width:73px;
+    margin-top: 0px; 
+    margin: 21px 16px;  
 }
