@@ -1,11 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "ubuntu", sans-serif;
+    box-sizing: border-box;
+}
 .d-block{
-    width: 405px;
+    width: 400px;
     height: 540px;
 }
 .vikram{
-    font-size: 34px;
-    color: rgb(245, 20, 188);
-
+    font-size: 39px;
+    color: rgb(245, 20, 188)
 }
 .md{
     margin-top: 40px;
@@ -21,6 +26,10 @@
     color: rgba(255, 132, 0, 0.919);
 }
 .class2{
-    color: rgba(6, 237, 253, 0.943);
+    color: rgba(9, 86, 251, 0.943);
+}
+.mp{
+    display: flex;
+    flex-wrap: wrap;
 }
 

@@ -5,16 +5,19 @@
     box-sizing: border-box;
 }
 .body{
-    min-height: 160vh;
+    min-height: 250vh ;
+    margin-bottom: -3vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #111;
+    flex-wrap: wrap-reverse;
+    background: #111111;
 }
 .skills{
     width: 100%;
     max-width: 600%;
     padding: 0 20px;
+    flex-wrap: wrap;
 }
 .skill-name{
     font-size: 18px;
@@ -35,7 +38,7 @@
     position: relative;
     animation: fillBars 2.5s 1;
 }
-.skill-bar::before{
+.skill-bar:before{
     content: attr(per);
     position: absolute;
     padding: 4px 6px;
@@ -86,4 +89,21 @@
     font-family: system-ui;
     color: rgb(16, 204, 38);
     margin-top:1px;
+}
+.h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin: 20px 0; 
+    margin-left: 75px;
+    font-family: system-ui;
+    color: rgb(8, 206, 255);
+    margin-top: px;
+}
+.sona{
+    font-size: 25px;
+    font-weight: 700;
+    color: #f1f1f1;
+     width:94vmax ;
 }

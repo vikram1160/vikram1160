@@ -8,7 +8,7 @@ function Projects() {
     <div className='container-fluid min-vh-100 d-flex justify-content-center align-items-center'>
 
       <div className="main-container">
-      <h1 className='text-center mb-4'>Projects</h1>
+      <h1 className='text-center mb-5'>Projects</h1>
 
       <div className="row">
         <div className="col-sm-6 mb-3 mb-sm-0 mb-3">

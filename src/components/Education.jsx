@@ -6,7 +6,7 @@ import image3 from '../assets/bca.jpg'
 function Education() {
   return (
     <div>
-      <section class="container py-2 bg-info" id="about" >
+      <section class="container py-2 bg-info" id="about">
         <div class="row mt-2 py-3">
           <div class="col-12 d-flex flex-column text-center">
             <h2 className='btn btn-warning'>Education</h2>
