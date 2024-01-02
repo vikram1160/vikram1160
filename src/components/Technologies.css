@@ -69,7 +69,7 @@
     }
 }
 .h1{
-    font-size: 25px;
+    font-size: 4vw;
     font-weight: 700;
     color: #f1f1f1;
     text-transform: uppercase;
@@ -80,7 +80,7 @@
     margin-top: -170px;
 }
 .h2{
-    font-size: 25px;
+    font-size: 3vw;
     font-weight: 700;
     color: #f1f1f1;
     text-transform: uppercase;
@@ -91,7 +91,7 @@
     margin-top:1px;
 }
 .h3 {
-    font-size: 25px;
+    font-size: 3vw;
     font-weight: 700;
     color: #f1f1f1;
     text-transform: uppercase;
@@ -99,10 +99,10 @@
     margin-left: 75px;
     font-family: system-ui;
     color: rgb(8, 206, 255);
-    margin-top: px;
+    margin-top: 8vw;
 }
 .sona{
-    font-size: 25px;
+    font-size: 2vw;
     font-weight: 700;
     color: #f1f1f1;
      width:94vw ;
