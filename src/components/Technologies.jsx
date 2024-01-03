@@ -18,14 +18,14 @@ function Technologies() {
       <div className="skill">
         <div className="skill-name"><span style={{color :'Orange'}}>CSS</span></div>
         <div className="skill-bar">
-          <div className="skill-per" per="70%" style={{ maxWidth: '86%' }}></div>
+          <div className="skill-per" per="87%" style={{ maxWidth: '87%' }}></div>
         </div>
       </div>
 
       <div className="skill">
         <div className="skill-name"><span style={{color :'Orange'}}>JAVASCRIPT</span></div>
         <div className="skill-bar">
-          <div className="skill-per" per="60%" style={{ maxWidth: '71%' }}></div>
+          <div className="skill-per" per='72%'style={{ maxWidth: '72%' }}></div>
         </div>
 
         
@@ -33,14 +33,14 @@ function Technologies() {
         <div className="skill">
         <div className="skill-name"><span style={{color :'Orange'}}> BOOTSTRAP</span></div>
         <div className="skill-bar">
-          <div className="skill-per" per="70%" style={{ maxWidth: '81%' }}></div>
+          <div className="skill-per" per="81%" style={{ maxWidth: '81%' }}></div>
         </div>
         </div>
 
         <div className="skill">
         <div className="skill-name"><span style={{color :'Orange'}}> ANGULAR</span></div>
         <div className="skill-bar">
-          <div className="skill-per" per="70%" style={{ maxWidth: '56%' }}></div>
+          <div className="skill-per" per="57%" style={{ maxWidth: '57%' }}></div>
         </div>
         </div>
 
@@ -48,7 +48,7 @@ function Technologies() {
         <div className="skill">
         <div className="skill-name"><span style={{color :'Orange'}}> REACT</span></div>
         <div className="skill-bar">
-          <div className="skill-per" per="70%" style={{ maxWidth: '78%' }}></div>
+          <div className="skill-per" per="78%" style={{ maxWidth: '78%' }}></div>
         </div>
         </div>
 
@@ -56,14 +56,14 @@ function Technologies() {
         <div className="skill">
         <div className="skill-name"><span style={{color :'Orange'}}> MYSQL</span></div>
         <div className="skill-bar">
-          <div className="skill-per" per="70%" style={{ maxWidth: '67%' }}></div>
+          <div className="skill-per" per="69%" style={{ maxWidth: '69%' }}></div>
         </div>
         </div>
 
         <div className="skill">
         <div className="skill-name"><span style={{color :'Orange'}}> JAVA</span></div>
         <div className="skill-bar">
-          <div className="skill-per" per="70%" style={{ maxWidth: '40%' }}></div>
+          <div className="skill-per" per="40%" style={{ maxWidth: '40%' }}></div>
         </div>
         </div>
    

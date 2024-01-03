@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .body{
-    min-height: 250vh ;
+    min-height: 235vh ;
     margin-bottom: -3vh;
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@
     position: relative;
     animation: fillBars 2.5s 1;
 }
-.skill-bar:before{
+.skill-per:before{
     content: attr(per);
     position: absolute;
     padding: 4px 6px;
@@ -47,17 +47,17 @@
     font-size: 12px;
     top: -35px;
     right: 0;
-    transform: translateX(50%);
+    transform: translateX(50%); 
 }
-.skill-per::after{
+.skill-per:after{
     content: "";
     position: absolute;
     width: 10px;
     height: 10px;
-    background: #f1f1f1;
-    top: -20px;
-    right: o;
-    transform  :translateX(50%) rotate(45deg);
+    background:#f1f1f1;
+    top: -15px;
+    right: 0;
+    transform :translateX(50%) rotate(45deg);
     border-radius: 2px;
 }
 @keyframes fillBars{
@@ -69,7 +69,7 @@
     }
 }
 .h1{
-    font-size: 4vw;
+    font-size: 25px;
     font-weight: 700;
     color: #f1f1f1;
     text-transform: uppercase;
@@ -80,7 +80,7 @@
     margin-top: -170px;
 }
 .h2{
-    font-size: 3vw;
+    font-size: 25px;
     font-weight: 700;
     color: #f1f1f1;
     text-transform: uppercase;
@@ -91,7 +91,7 @@
     margin-top:1px;
 }
 .h3 {
-    font-size: 3vw;
+    font-size:24px;
     font-weight: 700;
     color: #f1f1f1;
     text-transform: uppercase;
@@ -99,11 +99,17 @@
     margin-left: 75px;
     font-family: system-ui;
     color: rgb(8, 206, 255);
-    margin-top: 8vw;
+    margin-top: 10vw;
 }
 .sona{
-    font-size: 2vw;
+    font-size: 25px;
     font-weight: 700;
     color: #f1f1f1;
-     width:94vw ;
+     width:90vw ;
+     
+}
+@media (max-width:600px){
+    .body{
+        min-height: 290vh ;
+    }
 }
