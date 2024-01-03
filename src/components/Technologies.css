@@ -55,7 +55,7 @@
     width: 10px;
     height: 10px;
     background:#f1f1f1;
-    top: -15px;
+    top: -1px;
     right: 0;
     transform :translateX(50%) rotate(45deg);
     border-radius: 2px;
@@ -108,8 +108,9 @@
      width:90vw ;
      
 }
-@media (max-width:600px){
+@media (max-width:700px){
     .body{
-        min-height: 290vh ;
+        min-height: 268vh;
+        margin-top: 0px;
     }
 }
