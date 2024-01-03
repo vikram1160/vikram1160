@@ -18,6 +18,7 @@
     max-width: 600%;
     padding: 0 20px;
     flex-wrap: wrap;
+
 }
 .skill-name{
     font-size: 18px;
@@ -45,7 +46,7 @@
     background: #f1f1f1;
     border-radius: 4px;
     font-size: 12px;
-    top: -35px;
+    top: -37px;
     right: 0;
     transform: translateX(50%); 
 }
@@ -55,7 +56,7 @@
     width: 10px;
     height: 10px;
     background:#f1f1f1;
-    top: -1px;
+    top: -16px;
     right: 0;
     transform :translateX(50%) rotate(45deg);
     border-radius: 2px;
@@ -108,9 +109,9 @@
      width:90vw ;
      
 }
-@media (max-width:530px){
+@media (max-width:750px ){
     .body{
-        min-height: 270vh;
-        margin-top: 0px;
+        min-height: 300vh;
+        margin-top: 0vh;
     }
 }
