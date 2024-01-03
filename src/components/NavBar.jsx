@@ -39,22 +39,22 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" onClick={toggleNavbar} to="/education">
+            <Link className="nav-link" onClick={toggleNavbar} to="education">
               Education
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" onClick={toggleNavbar} to="/technology">
+            <Link className="nav-link" onClick={toggleNavbar} to="technology">
               Technologies
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" onClick={toggleNavbar} to="/projects">
+            <Link className="nav-link" onClick={toggleNavbar} to="projects">
               Projects
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" onClick={toggleNavbar} to="/aboutme">
+            <Link className="nav-link" onClick={toggleNavbar} to="aboutme">
               About Me
             </Link>
           </li>
