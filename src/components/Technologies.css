@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .body{
-    min-height: 235vh ;
+    min-height: 1450px ;
     margin-bottom: -3vh;
     display: flex;
     align-items: center;
@@ -111,7 +111,6 @@
 }
 @media (max-width:750px ){
     .body{
-        min-height: 300vh;
-        margin-top: 0vh;
+       min-height: 1650px
     }
 }
