@@ -14,24 +14,10 @@ function Home() {
   return (
     <div className='container-fluid bg-dark text-light min-vh-100 d-flex justify-content-center align-items-center mb-5'>
         <div className="d-flex flex-column justify-content-center align-items-center text-center">
-          {/* <div className="box">
-            <div className="imgbox">
-              <img className='remo' src={insta1} alt='remo'/>
-            </div>
-            <div className="content">
-              VIKRAM 
-            </div>
-          </div> */}
-          
-        <div className="d-flex mb-4">
-        <Link to="https://www.instagram.com/vikram_golait_96k?igsh=Z2ZwdDRyZWdvZjZx"><img src={viki} className=' insta'alt='insta'/></Link>
-        <Link to="https://wa.me/917887589262?text=I want to hire you" ><img src={vik} className=' whatsapp' alt='whatsapp'/></Link>
-        <Link to="https://youtube.com/@Status_Studiooo?si=j0t43nfqw4r93ioY"><img src={vi} className=' you' alt='youtube'/></Link>
-        </div>
-
         <h1>Hello, I am <span className='text-danger display-2 fw-bold '>Vikram</span></h1>
           <p className='my-info ' >
-            I am professional web developer looki ng for the opportunity to express my knowledge. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid velit dicta voluptatum rem blanditiis magnam voluptatibus vitae. Ipsum, dignissimos unde molestias at hic optio voluptatum beatae nihil, velit quaerat ratione. Quae sed neque fugiat ex!
+            <h5>Front End Developer, And UI UX Designer</h5>
+             I am professional web developer looking for the opportunity to express my knowledge.
           </p>
           <div>
             <a href={resume} className='btn btn-outline-danger mx-3 mb-3' download>Download Resume</a>
@@ -39,6 +25,11 @@ function Home() {
             <a href={whatsapp_message} className='btn btn-danger mb-3'>Connect on Whatsapp</a>
 
           </div>
+          <div className="d-flex mb-5">
+        <Link to="https://www.instagram.com/vikram_golait_96k?igsh=Z2ZwdDRyZWdvZjZx"><img src={viki} className=' insta'alt='insta'/></Link>
+        <Link to="https://wa.me/917887589262?text=I want to hire you" ><img src={vik} className=' whatsapp' alt='whatsapp'/></Link>
+        <Link to="https://youtube.com/@Status_Studiooo?si=j0t43nfqw4r93ioY"><img src={vi} className=' you' alt='youtube'/></Link>
+        </div>
         </div>
     </div>
   )
