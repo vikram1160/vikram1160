@@ -33,7 +33,7 @@ function Education() {
             <h5>HSC</h5>
             <h5>Bhairavnath College Bhatana</h5>
             <h5>Percentage:56%</h5>
-            <p>During my university years, I studied Bio and science and gained hands-on experience through internships and freelance projects. This period fueled my passion for creating innovative solutions and solving complex problems.</p>
+            <p> I studied Bio and science and gained hands-on experience through freelance projects. This period fueled my passion for creating innovative solutions and solving complex problems.</p>
           </div>
         </div>
         <div class="row flex-row-reverse flex-md-row mt-5 pt-5">
@@ -42,7 +42,7 @@ function Education() {
             <h5>BSC</h5>
             <h5>Shivaji College Kannad</h5>
             <h5>Percentage:63%</h5>
-            <p>Throughout my career, I have consistently sought opportunities to refine my skills and stay updated with the latest technologies. I strive for excellence in every project I undertake and aim to deliver valuable and impactful results.</p>
+            <p> my skills and stay updated with the latest technologies. I strive for excellence in every project I undertake and aim to deliver valuable and impactful results.</p>
           </div>
           <div class="col-3 col-md-2 img text-center">
             <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src={image3} alt="img" />
