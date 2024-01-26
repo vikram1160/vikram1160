@@ -10,12 +10,12 @@
 }
 .vikram{
     font-size: 39px;
-    color: rgb(245, 20, 188)
+    /* color: rgb(245, 20, 188) */
 }
 .md{
     margin-top: 40px;
 }
-.pm{
+/* .pm{
     color: tomato;
     
 }
@@ -27,7 +27,7 @@
 }
 .class2{
     color: rgba(9, 86, 251, 0.943);
-}
+} */
 .mp{
     display: flex;
     flex-wrap: wrap;
