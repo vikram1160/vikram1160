@@ -20,15 +20,15 @@ const AboutMe = () => {
           <h3>Front End Developer, And UI UX Designer</h3>
           <hr/>
           <h3>
-            <span className="class"> JavaScript Framework </span>Angular, React{" "}
+            <span className="class"> JavaScript Framework: </span>Angular, React
             <br />
             <hr/>
             <h3>
-              <span className="class1">Database </span> MySql
+              <span className="class1">Database: </span> MySql
             </h3>
             <hr/>
             <h3>
-              <span className="class2">Backend </span> Basic Java
+              <span className="class2">Backend: </span> Core Java
             </h3>
             <hr/>
           </h3>
