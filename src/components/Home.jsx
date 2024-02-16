@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import resume from '../assets/resume.docx'
+import resume from '../assets/resume.pdf'
 import './Home.css'
 import viki from '../assets/insta4.jpg'
 import vik from '../assets/PNG21.jpg'
