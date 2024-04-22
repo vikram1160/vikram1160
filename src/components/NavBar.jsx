@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState } from "react";
 import { Link } from "react-router-dom"; // Assuming you are using React Router
 import "./NavBar.css";
 
@@ -35,7 +35,7 @@ const Navbar = () => {
         <ul className="navbar-nav">
           <li className="nav-item active">
             <Link className="nav-link" onClick={toggleNavbar} to="/">
-              Home <span className="sr-only">(current)</span>
+              Home <span className="sr-only"></span>
             </Link>
           </li>
           <li className="nav-item">

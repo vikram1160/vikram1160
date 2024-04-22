@@ -19,3 +19,31 @@
 .my-info{
     width: 65vw;
 }
+.mp{
+    display: flex;
+    flex-wrap: wrap;
+    width:99vw;
+    height: 190vh;
+    
+}
+.ok{
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+}
+.row{
+   font-size: 50px; 
+}
+/* 
+.op{
+    margin-top: -280px;
+}
+.gop{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width:750px ){
+    .body{
+      width: 100px;
+    }
+} */
