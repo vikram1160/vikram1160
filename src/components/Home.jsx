@@ -23,7 +23,7 @@ function Home() {
           
         <h1> <span className='row text-danger display-2 fw-bold '>Vikram Golait</span></h1>
           <p className='my-info ' >
-            <h5>Front End Developer, And UI UX Designer</h5>
+            <h5>Frontend Developer , and UI UX Designer</h5>
              I am professional web developer looking for the opportunity to express my knowledge.
           </p>
           <div>

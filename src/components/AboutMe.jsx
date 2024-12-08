@@ -13,23 +13,23 @@ const AboutMe = () => {
           </h3>
           <hr/>
           <h3 className="sam">
-            I Am From Maharashtra , Dist -
-            <span className="pm"> Sambhaji Nagar</span>
+            I am from maharashtra , dist -
+            <span className="pm"> sambhaji nagar</span>
           </h3>
           <hr/>
-          <h3>Front End Developer, And UI UX Designer</h3>
+          <h3>Frontend Developer</h3>
           <hr/>
           <h3>
             <span className="class"> JavaScript Framework: </span>Angular, React
             <br />
             <hr/>
-            <h3>
+            {/* <h3>
               <span className="class1">Database: </span> MySql
-            </h3>
+            </h3> */}
             <hr/>
-            <h3>
+            {/* <h3>
               <span className="class2">Backend: </span> Core Java
-            </h3>
+            </h3> */}
             <hr/>
           </h3>
         </div>
